@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: white;}
+
+
+body h1{ 
+    position: relative;
+    bottom:30px;
+}
+
+.conteiner{    
+    padding: 90px;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    margin-left: 50%;
+    background-color: rgba(38, 129, 30, 0.75);
+    transform: translate(-50%, 20%);
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 8px;
+    background-color: gray;
+    color: white;
+    position: relative;
+    max-width: 450px;
+    margin-left: 30%;
+}
+
+.btn:hover{
+    background-color: green;   
+    cursor: pointer;
+}
+
+.mensagem {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.certo {
+    color: green;
+    font-size: larger;
+}
+.errado {
+    color: red;
+    font-size: larger;
+}
+
+
+
